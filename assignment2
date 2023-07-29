@@ -1,0 +1,18 @@
+--------------------------------------ASSIGNMENT TWO-------------------------------------------
+
+
+
+import React from 'react';
+import GreetingCard from './GreetingCard';
+
+const App = () => {
+  return (
+    <div>
+      <GreetingCard name="John" />
+      <GreetingCard name="Alice" greeting="Hi" backgroundColor="#ffeeaa" textColor="#880000" />
+      <GreetingCard name="Bob" greeting="Hey" backgroundColor="#c0ffee" />
+    </div>
+  );
+};
+
+export default App;
